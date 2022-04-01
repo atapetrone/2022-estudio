@@ -547,7 +547,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_setting(
     	'tlh_email_sbtitle',
     	array(
-	        'default'			=> __('email@email.com','avril-pro'),
+	        'default'			=> __('informes@compressmania.com','avril-pro'),
 			'sanitize_callback' => 'avril_sanitize_text',
 			'transport'         => $selective_refresh,
 			'capability' => 'edit_theme_options',

@@ -360,7 +360,7 @@ if ( ! function_exists( 'avril_abv_hdr_group_2' ) ) {
 						$hide_show_email_details 	= get_theme_mod( 'hide_show_email_details','1');
 						$tlh_email_icon 			= get_theme_mod( 'tlh_email_icon','fa-phone'); 	
 						$tlh_email_title 			= get_theme_mod( 'tlh_email_title','Email Us'); 
-						$tlh_email_sbtitle 			= get_theme_mod( 'tlh_email_sbtitle','email@email.com'); 
+						$tlh_email_sbtitle 			= get_theme_mod( 'tlh_email_sbtitle','informes@compressmania.com'); 
 					?>	
 					<?php if($hide_show_email_details == '1') { ?>
 						<aside class="widget widget-contact wgt-2">
@@ -368,7 +368,7 @@ if ( ! function_exists( 'avril_abv_hdr_group_2' ) ) {
 								<div class="contact-icon">
 									<i class="fa <?php echo  esc_attr($tlh_email_icon); ?>"></i>
 								</div>
-								<a href="mailto:email@email.com" class="contact-info">
+								<a href="mailto:informes@compressmania.com" class="contact-info">
 									<span class="text"><?php echo esc_html($tlh_email_title); ?></span>
 									<span class="title"><?php echo esc_html($tlh_email_sbtitle); ?></span>
 								</a>
