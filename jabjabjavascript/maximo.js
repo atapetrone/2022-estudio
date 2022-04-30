@@ -27,3 +27,23 @@ function maximo(arregloX) {
 }
 
 console.log(maximo([3, 4, 5, 66, 7, 8, 9]));
+
+console.log("____________________________________________________________");
+console.log("COMO LO HIZO EL MAESTRO:");
+
+function minimoT(arregloT) {
+  //Variables
+  let compara = 0;
+  //Solución
+  for (let digito of arregloT) {
+    if (digito < compara || compara == 0) {
+      compara = digito;
+    }
+  }
+  //FINAL DE LA FUNCIÓN
+  return compara;
+}
+
+console.log(
+  minimoT([44, 34, 76, 190, 45, 23, 23, 85, 189, 201, 155, 132, 111])
+);
