@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.contenedor__barra {
+  position: absolute;
+  width: 200px;
+  background: rgb(31, 31, 31);
+  height: 100%;
+  z-index: 9999;
+  left: -200px;
+}
+
+.barra {
+  color: rgb(173, 173, 173);
+  padding: 1rem;
+  transition: 3s all ease;
+}
+
+.menu {
+  list-style: none;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.menu__item {
+  border-bottom: 1px gray solid;
+  padding-bottom: 0.3rem;
+  padding-top: 0.3rem;
+  cursor: pointer;
+  transition: .5s all ease;
+}
+
+.menu__item:hover{
+background-color: rgb(15, 15, 15);
+}
+
+
+
+
+
+.hamburger {
+  position: absolute;
+  top: 5px;
+  right: -50px;
+}
+
+.hamburger:hover{
+  cursor: pointer;
+  transition: .5s all ease;
+}
+
+.elSpan{
+  display: block;
+  background: rgb(27, 27, 27);
+  width: 35px;
+  height: 6px;
+  margin: 5px;
+  border-radius: 2px;
+}
+
+.open1{
+  left: 0px;
+}
+.contenedor {
+  margin-left: 0px;
+}
+
+.contenido {
+  margin: 0 auto;
+  width: 960px;
+  padding: 50px;
+}
+
+.open2{
+margin-left: 200px;
+}
+.texto1 {
+  text-align: center;
+  padding: 30px;
+}
+
+.imagen1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-top: 20px;
+}
+
+.change.barra1{
+  position: relative;
+  top: 12px;
+  transform: rotate(45deg);
+  transition: .5s;
+}
+
+.change.barra2{
+  opacity: 0;
+  transition: .5s;
+}
+
+.change.barra3{
+  position: relative;
+  bottom: 10px;
+  transform: rotate(-45deg);
+  transition: .5s;
+}
+
+.change3 {
+  background-color: rgb(255, 255, 238);
+}
+
