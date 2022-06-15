@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(233, 231, 201);
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+.contenedorBoton {
+}
+.casaBoton {
+  /* border: solid black 1px; */
+  width: 185px;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.boton {
+  padding: 1rem;
+  background-color: rgb(43, 43, 43);
+  border: transparent;
+  border-radius: 5px;
+
+  color: rgb(255, 255, 250);
+  font-size: 2rem;
+}
+
+@keyframes bajando {
+  from {
+    top: -200px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.cuadraModal{
+  position:absolute;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  border: solid 5px black;
+}
+
+.casaModal {
+  margin: 0 auto;
+  width: 60%;
+  max-width: 600px;
+  height: 500px;
+  /* border: 5px solid black; */
+  margin: 0, auto;
+}
+
+.modal {
+  animation-name: bajando;
+  animation-duration: 0.5s;
+
+  position: relative;
+  z-index: 999;
+  top: 0;
+  left: 0;
+
+  /* text-align: center; */
+  display: none;
+  /* margin: 0 auto; */
+  margin-top: 5%;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  background-color: rgb(43, 43, 43);
+  border-radius: 20px;
+}
+
+.open5.cuadraModal {
+  display: block;
+}
+
+.open5.modal {
+  display: block;
+}
+
+.tache {
+  color: white;
+  background-color: rgb(43, 43, 43);
+  border: transparent;
+  font-size: 3rem;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.tache:hover {
+  color: red;
+}
+
+.titulo {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  padding-bottom: 30px;
+}
+
+.subtitulo {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.contenido {
+  text-align: center;
+  padding: 0px 50px 100px 50px;
+}
+
+/* .label1{
+  padding-bottom: 100px;
+} */
+
+.casilla {
+  border: solid white 3px;
+  background-color: rgb(43, 43, 43);
+  font-size: 1.4rem;
+  width: 100%;
+  max-width: 350px;
+}
+
+.submit {
+  color: black;
+  background-color: ;
+  font-size: 1.5rem;
+  padding: 5px;
+  width: 90px;
+  border: transparent;
+  border-radius: 10px;
+}
+.submit:hover {
+  background-color: rgb(168, 168, 168);
+}

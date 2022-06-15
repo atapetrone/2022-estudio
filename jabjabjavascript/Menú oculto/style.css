@@ -22,6 +22,7 @@ body {
 .barra {
   color: rgb(173, 173, 173);
   padding: 1rem;
+  padding-right: 1.5rem;
   transition: 3s all ease;
 }
 
@@ -78,6 +79,7 @@ background-color: rgb(15, 15, 15);
   margin: 0 auto;
   width: 960px;
   padding: 50px;
+  text-align: center;
 }
 
 .open2{
@@ -89,11 +91,13 @@ margin-left: 200px;
 }
 
 .imagen1 {
-  display: block;
+  
+ /*  display: block;
   margin-left: auto;
-  margin-right: auto;
-  width: 60%;
+  margin-right: auto; */
+  /* width: 100%; */
   padding-top: 20px;
+  height: auto;
 }
 
 .change.barra1{

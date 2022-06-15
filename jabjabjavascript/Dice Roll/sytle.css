@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+background-color: black;
+color: white;
+}
+
+.casaDado{
+  /* border: solid 1px white; */
+  /* margin: 0 auto;
+  width: 60%;
+  height: 100%; */
+  text-align: center;
+}
+
+.titulo{
+ 
+  padding: 20px;
+ 
+}
+
+.casaBoton{
+  margin: 100px;
+  padding: 20px; 
+  
+}
+
+.botonArrojar{
+  padding: 10px; 
+  font-size:larger ;
+  border: transparent;
+  border-radius: 3px;
+}
+.botonArrojar:hover{
+  background-color: rgb(68, 68, 68);
+color: white;
+}
+
+.casaDado{
+  /* border: solid white 1px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.change.imagenDado{
+  border: solid red 3px;
+}

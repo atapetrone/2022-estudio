@@ -4,7 +4,7 @@ function contandoVocales(palabreja) {
 
   console.log(`buscar ${vocales} en ${palabreja}`);
 
-  for (var i = 0; i < 5; i++) {
+  for (var i = 0; i < vocales.length; i++) {
     console.log(vocales[i]);
     if (palabreja.includes(vocales[i])) {
       console.log(`si incluye ${vocales[i]}`);

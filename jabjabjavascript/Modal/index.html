@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <!-- 
+  font-family: 'Lato', sans-serif;
+  font-family: 'Pacifico', cursive; 
+-->
+  </head>
+  <body>
+    
+    <div class="cuadraModal">
+    
+    <div class="contenedorBoton">
+      <div class="casaBoton">
+        <button class="boton">Suscríbete</button>
+      </div>
+    </div>
+    
+      <div class="casaModal">
+        <div class="modal">
+          <div class="casaTache">
+            <button class="tache">
+              <span class="tachecito">&times;</span>
+            </button>
+          </div>
+
+          <div class="contenido">
+            <h1 class="titulo">Bienvenido al Modal</h1>
+            <h2 class="subtitulo">Este es el subtítulo</h2>
+            <p class="parrafo">
+              Un párrafo informativo Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Odit necessitatibus, aspernatur totam at harum
+              iste corporis, natus, non eligendi id ut? Laudantium impedit
+              vitae, ullam reprehenderit temporibus in quo ipsam.
+            </p>
+            <br />
+            <form action="/" class="formulario">
+              <label class="label1" for="email"
+                >Email:<br />
+                <input
+                  type="email"
+                  class="casilla"
+                  placeholder="Your email..."
+                />
+              </label>
+              <br /><br />
+              <label for="submit">
+                <input type="submit" value="Join" class="submit" />
+              </label>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
