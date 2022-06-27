@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  color: white;
+  background-color: rgb(43, 43, 43);
+}
+
+.casaHeader {
+  text-align: center;
+}
+
+.titulo {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  letter-spacing: 1.1rem;
+}
+
+.celda{
+  background-color: rgb(43,43,43);
+  border: transparent;
+}
+
+.casilla {
+  outline: none;
+  font-size: larger;
+  color: rgb(255, 255, 255);
+  margin-top: 35px;
+  margin-bottom: 35px;
+  width: 100%;
+  max-width: 500px;
+  border: solid white 1px;
+  border-radius: 5px;
+  background-color: rgb(43, 43, 43);
+  padding: 10px;
+  font-weight:600;
+}
+::placeholder {
+  color: rgba(163, 163, 163, 0.699);
+  background-color: rgb(43, 43, 43);
+  border: transparent;
+}
+
+.casaToDo{
+  margin-top: 20px;
+  overflow-y: scroll;
+  border-bottom: solid white 1px;
+  border-top: solid white 1px;
+  border-left: solid white 1px;
+  max-height: 600px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+
+}
+
+.listaToDos{
+  list-style-type: none;
+  /* border: solid black 1px; */
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.casaItem{
+/* border: solid green 1px; */
+
+}
+
+.entradaLiToDo{
+  /* border: solid black 1px; */
+  border-bottom: 2px solid rgb(255, 197, 37);
+  padding:0px 0px 5px 0px;
+  cursor: default;
+}
+.tache{
+  position: relative;
+  top: -32px;
+  left: 96%;
+ background-color: rgb(61, 61, 61);
+ border: transparent;
+ color: white;
+ padding: 3px 8px 4.5px 8px;
+ font-family: sans-serif;
+ font-weight:bolder;
+}
+
+
+.tacheSeleccionado{
+  background-color: rgb(88, 0, 0);
+}
+.tacheSeleccionado:hover{
+  background-color: rgb(124, 0, 0);
+}
+
+.done{
+ text-decoration: line-through;
+ color: rgba(255, 255, 255, 0.308);
+ border-bottom: 2px solid rgba(255, 197, 37, 0.315);
+
+}
+
+.delete{
+  display: none;
+}
+
