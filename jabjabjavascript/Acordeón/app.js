@@ -1,22 +1,18 @@
 let preguntasEls = document.getElementsByClassName("pregunta__main");
 
-function recorrido() {
-  for (let item of preguntasEls) {
-    let encabezado = item.firstElementChild;
-    encabezado.addEventListener("click", function () {
-      // console.log(encabezado.nextElementSibling);
-      let detallesAcordeon = encabezado.nextElementSibling;
-      let elSpan = encabezado.firstElementChild.nextElementSibling;
-      if (detallesAcordeon.style.maxHeight){
-        detallesAcordeon.style.maxHeight= null;
-        elSpan.innerHTML="+";
-      }else{detallesAcordeon.style.maxHeight= 1800+"px"
-      elSpan.innerHTML="-";
+for (let item of preguntasEls) {
+  // console.log(item.firstElementChild);
+  let cabecera = item.firstElementChild;
+  let cuerpo = cabecera.nextElementSibling;
+  let elSpan = cabecera.lastElementChild;
+
+  cabecera.addEventListener("click", function () {
+    if (cuerpo.style.maxHeight) {
+      cuerpo.style.maxHeight = null;
+      elSpan.innerHTML = "+";
+    } else {
+      cuerpo.style.maxHeight = 1800 + "px";
+      elSpan.innerHTML = "-";
     }
-      
-
-    });
-  }
+  });
 }
-
-recorrido();
