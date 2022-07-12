@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.container__general {
+  width: 750px;
+  background: black;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header {
+  /* border: solid red 1px; */
+  margin-top: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.titulo {
+  padding-bottom: 5px;
+}
+
+.main {
+  padding: 20px 0px;
+  height: 500px;
+}
+
+.contador {
+  height: 400px;
+  border: solid blue 1px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.compCircular {
+  padding: 45px;
+  border: red solid 1px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+
+  /* padding: 5%; */
+}
+
+.tabla {
+  font-size: 2.5rem;
+}
+
+.alPie {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10%;
+}
+
+button {
+  padding: 15px;
+  font-weight: bolder;
+  border-radius: 15px;
+  color: white;
+  background: rgb(43, 43, 43);
+}
