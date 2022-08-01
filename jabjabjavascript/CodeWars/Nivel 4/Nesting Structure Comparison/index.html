@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nesting Structure Comparison</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="header">
+            <h1>Nesting Structure Comparison</h1>
+        </div>
+        <div class="contenido">
+            <p>Complete the function/method (depending on the language) to return true/True when its argument is an array that has the same nesting structures and same corresponding length of nested arrays as the first array. <br><br>
+
+For example:<br><br>
+
+ should return true <br>
+[ 1, 1, 1 ].sameStructureAs( [ 2, 2, 2 ] );   <br>       
+[ 1, [ 1, 1 ] ].sameStructureAs( [ 2, [ 2, 2 ] ] ); <br><br>  
+
+ should return false <br>
+[ 1, [ 1, 1 ] ].sameStructureAs( [ [ 2, 2 ], 2 ] );  <br>
+[ 1, [ 1, 1 ] ].sameStructureAs( [ [ 2 ], 2 ] );  <br><br>
+
+ should return true <br>
+[ [ [ ], [ ] ] ].sameStructureAs( [ [ [ ], [ ] ] ] ); <br><br>
+
+should return false<br><br>
+[ [ [ ], [ ] ] ].sameStructureAs( [ [ 1, 1 ] ] );  <br>   
+For your convenience, there is already a function 'isArray(o)' declared and defined that returns true if its argument is an array, false otherwise.</p>
+        </div>
+
+
+        <script src="app.js"></script>
+    </body>
+</html>
