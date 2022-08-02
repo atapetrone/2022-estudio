@@ -1,3 +1,7 @@
+function isArray(elemento) {
+    return Array.isArray(elemento);
+}
+
 Array.prototype.sameStructureAs = function (other) {
     if (this.length !== other.length) {
         return false;
@@ -16,4 +20,4 @@ Array.prototype.sameStructureAs = function (other) {
     return true;
 };
 
-console.log([].sameStructureAs([]))
+console.log([[[], []]].sameStructureAs([[[], []]]));
