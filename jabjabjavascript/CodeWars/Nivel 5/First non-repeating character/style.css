@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+/* 
+
+font-family: 'Lato', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif; 
+
+*/
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header{
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 25px;
+
+}
+
+.contenido{
+  max-width: 750px;
+  margin: 100px auto;
+}

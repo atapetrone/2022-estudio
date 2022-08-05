@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>A Chain adding function</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="header">
+            <h1>A Chain adding function</h1>
+        </div>
+        <div class="contenido">
+            <p>We want to create a function that will add numbers together when called in succession.<br><br>
+
+add(1)(2); // == 3 <br>
+We also want to be able to continue to add numbers to our chain.<br><br>
+
+add(1)(2)(3); // == 6 <br>
+add(1)(2)(3)(4); //  == 10 <br>
+add(1)(2)(3)(4)(5); // == 15 <br>
+and so on. <br><br>
+
+A single call should be equal to the number passed in.<br>
+
+add(1); // == 1 <br><br>
+We should be able to store the returned values and reuse them.<br>
+
+var addTwo = add(2); <br>
+addTwo; // == 2 <br>
+addTwo + 5; // == 7 <br>
+addTwo(3); // == 5 <br>
+addTwo(3)(5); // == 10 <br>
+We can assume any number being passed in will be valid whole number.</p>
+        </div>
+
+
+        <script src="app.js"></script>
+    </body>
+</html>
